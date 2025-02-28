@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Greeting from '../src/components/Greeting.jsx'
 import {  } from "module";
 import Counter from './components/Counter.jsx'
-
+import'./assets/css/style.css'
 function App() {
   const [count, setCount] = useState(0)
 
